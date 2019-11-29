@@ -1,8 +1,37 @@
 <!DOCTYPE html>
 <html>
-<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Chat Log Editor</title>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Chat Log Editor</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+	<script src="https://use.fontawesome.com/c567ef3323.js"></script>
+	<!-- Custom files -->
+	<script src="js/script.js"></script>
+	<link href="css/style.css" rel="stylesheet">
 </head>
 <body>
+	<header>
+		<div id="container">
+			<nav id="nav">
+				<ul>
+					<li>
+						<a style="color: gray; cursor: default;">Upload</a>
+					</li>
+					<li>
+						<a style="color: gray; cursor: default;">Preview</a>
+					</li>
+					<li><a title="Chrome only">?</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<!--
+		<div id="header">
+			<input id="input-file" type="file">
+			<button type="button" id="bLoad">Load</button>
+		</div>
+	-->
+	<div id="editarea"></div>
 </body>
 </html>

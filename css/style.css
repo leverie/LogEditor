@@ -1,0 +1,42 @@
+header{
+	position: fixed;
+	width: 100%;
+	z-index: 1000;
+	left: 0;
+	top: 0;
+	box-shadow: 0 0 8px 0 rgba(0,0,0,0.2);
+	background: skyblue;
+}
+nav#nav{
+	float: right;
+}
+#nav ul{
+	margin: 0;
+	margin-right: 50px;
+	padding: 0;
+	list-style: none;
+}
+#nav li{
+	float: left;
+	padding: 15px 0;
+	margin: 0;
+	margin-left: 7px;
+	position: relative;
+}
+#nav li a{
+	cursor: pointer;
+}
+#nav li a:hover{
+	color: white;
+}
+#header{
+	width: 100%;
+	height: auto;
+	/*background: pink;*/
+}
+#editarea{
+	width: 100%;
+	height: auto;
+	margin-top: 60px;
+	background: skyblue;
+}
